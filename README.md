@@ -1,7 +1,7 @@
 # Flutter Firestore E-commerce App
 
-Họ và tên: [TÊN CỦA BẠN]
-Mã Sinh Viên: [MÃ SINH VIÊN CỦA BẠN]
+Họ và tên: Tran Dat Chien
+Mã Sinh Viên: 2251172255
 Lớp/Học phần: Lập trình Mobile - Đề số 02
 
 ## 📋 Giới thiệu
