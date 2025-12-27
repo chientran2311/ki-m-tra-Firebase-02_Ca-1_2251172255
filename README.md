@@ -67,6 +67,7 @@ Email: customer2@example.com ...
 
 Email: customer5@example.com
 
+mật khẩu: Nhập tùy biến sao cho đủ 6 chữ số
 📱 Các tính năng chính
 1. Quản lý Khách hàng (Customers)
 Đăng ký tài khoản mới (Check trùng email).

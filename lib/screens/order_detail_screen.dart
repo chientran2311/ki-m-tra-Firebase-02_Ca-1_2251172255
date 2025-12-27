@@ -19,11 +19,11 @@ class OrderDetailScreen extends StatelessWidget {
     bool? confirm = await showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text("Hủy Đơn Hàng?"),
-        content: const Text("Bạn có chắc chắn muốn hủy đơn hàng này không?"),
+        title: const Text("Cancel Order?"),
+        content: const Text("Are you sure you want to cancel this order?"),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text("Không")),
-          TextButton(onPressed: () => Navigator.pop(ctx, true), child: const Text("Có, Hủy đơn", style: TextStyle(color: Colors.red))),
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text("No")),
+          TextButton(onPressed: () => Navigator.pop(ctx, true), child: const Text("Yes, Cancel Order", style: TextStyle(color: Colors.red))),
         ],
       ),
     );
