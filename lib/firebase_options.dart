@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD25NQ-4IruSRU4q9WUfvV4ICncSqe-fRw',
-    appId: '1:454157987904:web:72331784893e4945da6fa5',
-    messagingSenderId: '454157987904',
-    projectId: 'kiemtra-firebase-27-12',
-    authDomain: 'kiemtra-firebase-27-12.firebaseapp.com',
-    storageBucket: 'kiemtra-firebase-27-12.firebasestorage.app',
-    measurementId: 'G-LTBF3WQ59K',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_WEB'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_WEB'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    authDomain: String.fromEnvironment('FIREBASE_AUTH_DOMAIN'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+    measurementId: String.fromEnvironment('FIREBASE_MEASUREMENT_ID_WEB'),
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC97drUcyLRtgeJ8vrEq1ddVidPzStsGE0',
-    appId: '1:454157987904:android:6657913effc63d4bda6fa5',
-    messagingSenderId: '454157987904',
-    projectId: 'kiemtra-firebase-27-12',
-    storageBucket: 'kiemtra-firebase-27-12.firebasestorage.app',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_ANDROID'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_ANDROID'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAP1kqIDIzXScVXv8VIwX73_4vPsX3iJdk',
-    appId: '1:454157987904:ios:060bf44237f14e60da6fa5',
-    messagingSenderId: '454157987904',
-    projectId: 'kiemtra-firebase-27-12',
-    storageBucket: 'kiemtra-firebase-27-12.firebasestorage.app',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_IOS'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_IOS'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
     iosBundleId: 'com.example.flutterApplication2251172255',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAP1kqIDIzXScVXv8VIwX73_4vPsX3iJdk',
-    appId: '1:454157987904:ios:060bf44237f14e60da6fa5',
-    messagingSenderId: '454157987904',
-    projectId: 'kiemtra-firebase-27-12',
-    storageBucket: 'kiemtra-firebase-27-12.firebasestorage.app',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_IOS'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_IOS'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
     iosBundleId: 'com.example.flutterApplication2251172255',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyD25NQ-4IruSRU4q9WUfvV4ICncSqe-fRw',
-    appId: '1:454157987904:web:1db52c40c5ea0d5dda6fa5',
-    messagingSenderId: '454157987904',
-    projectId: 'kiemtra-firebase-27-12',
-    authDomain: 'kiemtra-firebase-27-12.firebaseapp.com',
-    storageBucket: 'kiemtra-firebase-27-12.firebasestorage.app',
-    measurementId: 'G-6M22TBT7C9',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_WEB'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_WINDOWS'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    authDomain: String.fromEnvironment('FIREBASE_AUTH_DOMAIN'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+    measurementId: String.fromEnvironment('FIREBASE_MEASUREMENT_ID_WINDOWS'),
   );
 }
